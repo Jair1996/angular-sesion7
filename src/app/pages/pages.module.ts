@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home/home.component';
 import { ProductosPageComponent } from './productos-page/productos-page.component';
 import { CrearProductoPageComponent } from './crear-producto-page/crear-producto-page.component';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -18,7 +19,8 @@ import { CrearProductoPageComponent } from './crear-producto-page/crear-producto
     CrearProductoPageComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ]
 })
 export class PagesModule { }
